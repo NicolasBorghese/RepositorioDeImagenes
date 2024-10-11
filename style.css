@@ -1,0 +1,40 @@
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.contenedor {
+  position: relative; /* Esto crea un contexto de posicionamiento */
+  height: 100vh; /* Ocupa toda la pantalla */
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+  font-family: "Bangers", system-ui;
+  font-size: 5em;
+  z-index: 10;
+  position: absolute; /* Posiciona el texto en relación a su contenedor */
+  top: 15%;
+  /*left: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+  color: white;
+  text-align: center;
+  text-shadow: burlywood 0 0 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  position: absolute; /* La imagen también está en el contenedor */
+  top: 0;
+  left: 0;
+  z-index: 1; /* La imagen está por detrás del texto */
+}
