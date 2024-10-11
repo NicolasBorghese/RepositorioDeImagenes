@@ -1,10 +1,16 @@
 <div align="center">
 
+<h1>
 <a href="https://nicolasborghese.github.io/RepositorioDeImagenes/">
-  <h3>Repositorio de Imágenes</h3>
+  Repositorio de Imágenes
 </a>
+</h1>
 
-<br><br>
+<br>
+
+<br><br>© 2024 Nicolás Borghese
+
+<br>
 
 <img src="imagenes_con_ia/Perro_Medico_etc.jpg" width="100%" alt="imagen de un perro"/>
 
